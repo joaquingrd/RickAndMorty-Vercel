@@ -1,0 +1,38 @@
+.LandingPage {
+    background-image: url(../../imagenes/home.jpg);     
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+
+.Ingresar {
+    margin-left: 90px;
+    margin-bottom: 93px;
+    position: relative;
+    display: inline-block;
+    padding: 1px 20px;
+    color:#1f1f08;
+    letter-spacing: 4px;
+    font-size: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.3s;
+    background-color: #c4c4befd;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px #dee2dd, 0 0 10px #cbee04, 0 0 20px #3bd419;
+    font-family: monospace;
+}
+
+.Ingresar:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #dee2dd, 0 0 10px #cbee04, 0 0 20px #3df804;
+    color: #5c5c5a;
+    font-size: 12px;
+    margin-left: 79px;
+    margin-bottom: 86px;
+    
+}
